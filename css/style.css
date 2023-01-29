@@ -13,3 +13,62 @@
 .list-item{
     padding: 20px;
 }
+
+.stroked{
+    text-decoration: line-through;
+}
+
+.button{
+    width: 40px;
+    height: 40px;
+    border: none;
+
+}
+
+.button-success{
+background-color: green;
+color: white;
+}
+
+.button-success:hover{
+    background-color: rgb(2, 91, 2);
+    color: white;
+}
+
+.button-success:active{
+    background-color: rgb(1, 66, 1);
+    color: white;
+}
+
+.button-danger{
+    background-color: black;
+    color: white;
+}
+
+.button-danger:hover{
+    background-color: rgb(38, 38, 38);
+    color: white;
+}
+
+.button-danger:active{
+    background-color: rgb(93, 92, 92);
+    color: white;
+}
+
+.button-delete{
+    background-color: rgb(238, 0, 0);
+    color: white;
+
+}
+
+.button-delete:hover{
+    background-color: rgb(171, 0, 0);
+    color: white;
+
+}
+
+.button-delete:active{
+    background-color: rgb(103, 16, 16);
+    color: white;
+
+}
