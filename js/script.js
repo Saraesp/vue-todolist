@@ -3,14 +3,14 @@ const { createApp } = Vue;
 createApp({
     data(){
         return{
+            newTask: '',
             todolist: [
                 'Fare la spesa',
                 'Portare a spasso il cane',
                 'Preparare la cena',
                 'Riparare il Frigo',
-                'Fare la spesa',
-                'Fare la spesa',
-                'Fare la spesa',
+                'Lavare la macchina',
+                'fare l\'esercizio di Boolean',
             ]
         }
     }
