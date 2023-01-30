@@ -46,7 +46,7 @@ color: white;
 }
 
 .button-danger:hover{
-    background-color: rgb(38, 38, 38);
+    background-color: rgb(61, 61, 61);
     color: white;
 }
 
@@ -69,6 +69,24 @@ color: white;
 
 .button-delete:active{
     background-color: rgb(103, 16, 16);
+    color: white;
+
+}
+
+.button-warning{
+    background-color: rgb(243, 137, 9);
+    color: white;
+
+}
+
+.button-warning:hover{
+    background-color: rgb(251, 204, 61);
+    color: white;
+
+}
+
+.button-warning:active{
+    background-color: rgb(238, 178, 0);
     color: white;
 
 }
